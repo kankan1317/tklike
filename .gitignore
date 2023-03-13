@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# git commitを簡単に行うためのbatファイル
+git_commit.bat
