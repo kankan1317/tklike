@@ -4,5 +4,13 @@
 import tkinter as tk
 
 __all__ = [
-    
+
 ]
+
+class window:
+    """make a window"""
+
+    ### class variable ###
+    __is_firstWindow : bool = True
+
+    def __init__(self, title:str, width=None, height=None): ...
