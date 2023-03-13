@@ -8,3 +8,11 @@ class mainWindow:
 
         self.master.title(title)
         self.master.geometry(f"{width}x{height}")
+
+
+class subWindow:
+    def __init__(self, title:str, width:int, height:int):
+        self.master = tk.Toplevel()
+
+        self.master.title(title)
+        self.master.geometry(f"{width}x{height}")
