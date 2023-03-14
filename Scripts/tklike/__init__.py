@@ -22,3 +22,7 @@ class window:
         else:
             self.window = _baseWindow.subWindow(title, width, height, x, y)
             window.__is_firstWindow = False
+
+    def mainloop(self) -> None:...
+
+    def add_frame(self, frame) -> None:... 
